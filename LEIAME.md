@@ -1,0 +1,1 @@
+A pasta algoritimo separa as atividasdes que fizemos no portugol com o Dedylon, dentro da pasta algoritimo contem outras pastas para guardar atividades especificas
