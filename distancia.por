@@ -1,22 +1,38 @@
 programa {
   funcao inicio() {
-   //O algoritmo recebe do usu·rio a dist‚ncia e a velocidade de viagem e faz a media de tempo que a viagem ter·.
+   //O algoritmo recebe do usu√°rio a dist√¢ncia e a velocidade de viagem e faz a media de tempo que a viagem ter√°.
 
   real distancia, velocidade, tempo
   real inicio
    
+   cadeia motorista
    
-    escreva("Digite a dist‚ncia da viagem em quilÙmetros: ")
+   escreva("Qual o nome do motorista?")
+   leia(motorista)
+   
+    escreva("Digite a dist√¢ncia da viagem em quil√¥metros: ")
     leia(distancia)
     
-    escreva("Digite a velocidade mÈdia de viagem em km/h: ")
+    escreva("Digite a velocidade m√©dia de viagem em km/h: ")
     leia(velocidade)
     
 
     tempo= distancia / velocidade
     
-    escreva("O tempo de viagem È de ",tempo, " horas.")
+    escreva("O tempo de viagem √© de ",tempo, " horas.")
 
     
   }
 }0
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta se√ß√£o do arquivo guarda informa√ß√µes do Portugol Studio.
+ * Voc√™ pode apag√°-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 286; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
